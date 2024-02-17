@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "format": "npx @biomejs/biome check --apply ./src/**/*.ts"
+    "format": "npx @biomejs/biome check --apply ./src/**/*.ts",
+    "knex": "tsx ./node_modules/knex/bin/cli.js"
   },
   "keywords": [],
   "author": "",
