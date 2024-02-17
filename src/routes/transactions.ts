@@ -5,6 +5,14 @@ import { z } from 'zod';
 import { knex } from '../database';
 
 export async function transactionsRoutes(app: FastifyInstance) {
+  app.get('/balance', async () => {
+    const balance = await knex('transactions')
+      .sum('amount', { as: 'amount' })
+      .first();
+
+    return balance;
+  });
+
   app.get('/', async () => {
     const transactions = await knex('transactions').select();
 
