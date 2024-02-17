@@ -7,5 +7,5 @@
 # Nonfunctional Requirements
 
 - [x] A transaction can be of type income or outcome.
-- [ ] It should be able to identify users between requests.
-- [ ] The user can only see the transactions he created.
+- [x] It should be able to identify users between requests.
+- [x] The user can only see the transactions he created.
