@@ -6,6 +6,6 @@
 
 # Nonfunctional Requirements
 
-- [ ] A transaction can be of type credit (add) or debit (sub).
+- [ ] A transaction can be of type income or outcome.
 - [ ] It should be able to identify users between requests.
 - [ ] The user can only see the transactions he created.
